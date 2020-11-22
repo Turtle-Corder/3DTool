@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{6cc8824d-a190-4ddc-b947-1fb7f63a7cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.FilePath">
+      <UniqueIdentifier>{ef9abad2-262a-429e-8ea7-227471f367cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.PCH">
+      <UniqueIdentifier>{6d5e0988-2da5-4854-8100-5969a4748d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View">
+      <UniqueIdentifier>{984e4a6a-020f-46e1-a4e2-18b74f082bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\00.ToolView">
+      <UniqueIdentifier>{ab27b013-8862-4ef8-89f6-7cd18803b3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView">
+      <UniqueIdentifier>{22908f70-145c-403e-8f1d-411c2c7bb03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainFrame">
+      <UniqueIdentifier>{c6dac06b-8c85-43ea-a176-beb691aab859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Document">
+      <UniqueIdentifier>{b240ec8f-8c7a-48eb-b22e-14dfd5f3a48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Fixed_SplitWnd">
+      <UniqueIdentifier>{d7b556ec-ddcb-4824-8984-cdf13e8b458a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView\99.Form">
+      <UniqueIdentifier>{2eaccab8-d55f-4ada-abcf-c99ba22ea5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView\98.PropertySheet">
+      <UniqueIdentifier>{927fac78-28a3-478d-a4a9-961dab30e69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView\00.Page_Terrain">
+      <UniqueIdentifier>{d1375ffe-48fb-4b09-80eb-04f9b6992b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.View\01.FormView\01.Page_Mesh">
+      <UniqueIdentifier>{2b9b48e0-def7-4489-81e8-3456531472b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="3DToolFrame.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>97.FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="3DToolFrameDoc.h">
+      <Filter>02.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>01.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="3DToolFrameView.h">
+      <Filter>00.View\00.ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedSplitterWnd.h">
+      <Filter>03.Fixed_SplitWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsFormView.h">
+      <Filter>00.View\01.FormView\99.Form</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheet.h">
+      <Filter>00.View\01.FormView\98.PropertySheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_Terrain.h">
+      <Filter>00.View\01.FormView\00.Page_Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_Mesh.h">
+      <Filter>00.View\01.FormView\01.Page_Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3DToolFrame.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>97.FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="3DToolFrameDoc.cpp">
+      <Filter>02.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>01.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="3DToolFrameView.cpp">
+      <Filter>00.View\00.ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedSplitterWnd.cpp">
+      <Filter>03.Fixed_SplitWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsFormView.cpp">
+      <Filter>00.View\01.FormView\99.Form</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheet.cpp">
+      <Filter>00.View\01.FormView\98.PropertySheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_Terrain.cpp">
+      <Filter>00.View\01.FormView\00.Page_Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_Mesh.cpp">
+      <Filter>00.View\01.FormView\01.Page_Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\3DToolFrame.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\3DToolFrameDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DToolFrame.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My3DToolFrame.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>
